@@ -1,0 +1,255 @@
+extends ../template
+
+block variables
+	- var title = "Добро пожаловать"
+
+block content
+	header.header
+		.header-overlay
+			img(src="assets/images/header-bg.jpg")
+		<!-- HEADER -->
+		.container
+			.center
+				.header-top
+					.header-top_logo
+						.header-top_logo-title
+							a(href="") Brandi
+						.header-top_logo-description
+							p
+								span  | 
+								| I’am your tag line
+	  	
+					.header-top_nav
+						nav
+							ul
+								li
+									a(href="#" class="active") Home
+								li
+									a(href="#") Features
+								li
+									a(href="#") Works
+								li
+									a(href="#") Team
+								li
+									a(href="#") Contact
+
+		.header-content
+			p.header-content_title Meet
+				span Brandi
+				| !
+			p.header-content_description
+				span /creative 
+				| one page template.
+			p.header-content_small-description We are a team of professionals
+		.header-social
+			ul
+				li
+					a(href="#" class="icon-vkontakte")
+				li
+					a(href="#" class="icon-facebook")
+				li
+					a(href="#" class="icon-gplus")
+		<!-- END HEADER -->
+	
+	<!-- FEATURES -->
+	section.features
+		.center
+			.features_title
+				h3 features
+				.features_title-icon
+					img(src="assets/images/footer-icon/heart.png" alt="heart")
+			.features_block
+				.features_block-item
+					.features_block-img
+						img(src="assets/images/feather.png" alt="feather")
+					.features_block-title
+						p Branding
+					.features_block-desc
+						p Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
+				.features_block-item
+					.features_block-img
+						img(src="assets/images/pencil.png" alt="pencil")
+					.features_block-title
+						p Development
+					.features_block-desc
+						p Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
+				.features_block-item
+					.features_block-img
+						img(src="assets/images/megaphone.png" alt="megaphone")
+					.features_block-title
+						p Consulting
+					.features_block-desc
+						p Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
+	<!-- END FEATURES -->
+
+	<!-- WORKS -->
+	section.works
+		.center
+			.works_title
+				h3 works
+				.works_title-icon
+					img(src="assets/images/footer-icon/heart.png" alt="heart")
+			.works_desc
+				p Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
+		.container.filter
+			.filter_nav
+				ul
+					li
+						a(href="#" class="active") All
+					li
+						a(href="#") Branding
+					li
+						a(href="#") Web
+					li
+						a(href="#") Logo Design
+					li
+						a(href="#") Photography
+			.block-works
+				.block-works_item
+					img(src="assets/images/work/work-1.jpg" alt="work1")
+				.block-works_item
+					img(src="assets/images/work/work-2.jpg" alt="work2")
+				.block-works_item
+					img(src="assets/images/work/work-3.jpg" alt="work3")
+				.block-works_item
+					img(src="assets/images/work/work-4.jpg" alt="work4")
+				.block-works_item
+					img(src="assets/images/work/work-5.jpg" alt="work5")
+				.block-works_item
+					img(src="assets/images/work/work-6.jpg" alt="work6")
+				.block-works_item
+					img(src="assets/images/work/work-7.jpg" alt="work7")
+				.block-works_item
+					img(src="assets/images/work/work-8.jpg" alt="work8")
+
+	<!-- END WORKS -->
+
+	<!-- OUR TEAM -->
+	section.our-team
+		.center
+			.our-team_title
+				h3 our team
+				.our-team_title-icon
+					img(src="assets/images/footer-icon/heart.png" alt="heart")
+			.our-team_desc
+				p Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
+			.team-slider
+				.team-slider_block
+					.photo
+						img(src="assets/images/team/team-1.jpg" alt="John Filmr Doe")
+					.name
+						p John Filmr Doe
+					.position
+						p Managing Director
+				.team-slider_block
+					.photo
+						img(src="assets/images/team/team-2.jpg" alt="Chystine Hineu")
+					.name
+						p Chystine Hineu
+					.position
+						p Lead Designer
+				.team-slider_block
+					.photo
+						img(src="assets/images/team/team-3.jpg" alt="Martin Matrone")
+					.name
+						p Martin Matrone
+					.position
+						p Lead Developer
+				.team-slider_block
+					.photo
+						img(src="assets/images/team/team-4.jpg" alt="Steve Flaulkin")
+					.name
+						p Steve Flaulkin
+					.position
+						p Sr. UI Designer
+				.team-slider_block
+					.photo
+						img(src="assets/images/team/team-2.jpg" alt="Chystine Hineu")
+					.name
+						p Chystine Hineu
+					.position
+						p Lead Designer
+				.team-slider_block
+					.photo
+						img(src="assets/images/team/team-3.jpg" alt="Martin Matrone")
+					.name
+						p Martin Matrone
+					.position
+						p Lead Developer
+
+
+	<!-- END OUR TEAM -->
+
+	<!-- FACTS -->
+	section.facts
+		.center
+			.facts_title
+				h3 some fun facts
+				.facts_title-icon
+					img(src="assets/images/fact-icon/white-heart.png" alt="heart")
+
+			.facts_content
+				.content-item
+					.content-item_img
+						img(src="assets/images/fact-icon/clock.png" alt="clock")
+					p.content-item_num 3200
+					p.content-item_desc hours of work
+
+				.content-item
+					.content-item_img
+						img(src="assets/images/fact-icon/friends.png" alt="frients")
+					p.content-item_num 120
+					p.content-item_desc satisfied clinets
+				.content-item
+					.content-item_img
+						img(src="assets/images/fact-icon/rocket.png" alt="rocket")
+					p.content-item_num 360
+					p.content-item_desc projects delivered
+				.content-item
+					.content-item_img
+						img(src="assets/images/fact-icon/cup.png" alt="cup")
+					p.content-item_num 42
+					p.content-item_desc awards won
+	<!-- END FACTS -->
+
+	<!-- DISCUSS -->
+	section.discuss
+		.center
+			.discuss_title
+				h3 discuss
+				.discuss_title-icon
+					img(src="assets/images/footer-icon/heart.png" alt="heart")
+			.discuss_desc
+				p Voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
+			.contacts
+				.contacts_text
+					p Cras at ultrices erat, sed vulputate!
+					p 2345 Setwant natrer, 1234, </br>
+						| Washington. United States. </br>
+						| (401) 1234 567 </br>
+						| hello@brandi.com </br>
+						| www.brandi.com
+				.contacts_form
+					p Say hello!
+					form.form
+						input(type="text" name="name" placeholder="Name")
+						input(type="text" name="email" placeholder="Email")
+						textarea(name="message" placeholder="Message" rows="3")
+						button(type="button") Send message
+				.contacts_social
+					.social_wrap
+						ul
+							li
+								a(href="#" class="icon-vkontakte")
+							li
+								a(href="#" class="icon-github-circled")
+							li
+								a(href="#" class="icon-twitter")
+							li
+								a(href="#" class="icon-facebook")
+							li
+								a(href="#" class="icon-gplus")
+		.discuss_maps
+			img(src="assets/images/footer-icon/maps.jpg" alt="maps")
+
+	<!-- END DISCUSS -->
